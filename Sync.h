@@ -2,6 +2,8 @@
 #include <mutex>
 #include <shared_mutex>
 
+/// License: CC-BY-SA. Creative Commons Attribution-ShareAlike.
+
 /**
  * For when you want folly::Synchronized but don't want to install the universe.
  *
