@@ -2,8 +2,6 @@
 #include <mutex>
 #include <shared_mutex>
 
-/// License: CC-BY-SA. Creative Commons Attribution-ShareAlike.
-
 /**
  * For when you want folly::Synchronized but don't want to install the universe.
  *
@@ -11,6 +9,8 @@
  *
  * If T has const member functions which are not thread-safe,
  * you're going to have a bad time.
+ *
+ * License: CC-BY-SA. Creative Commons Attribution-ShareAlike. github.com/csp256/sync
  */
 
 namespace csp {
